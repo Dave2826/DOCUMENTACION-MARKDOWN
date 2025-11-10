@@ -53,7 +53,7 @@ D = ( 1 2 3 )
 
 ---
 
-### Procedimiento paso a paso
+### Procedimiento
 
 1. Se analizó si cada matriz era cuadrada (mismo número de filas y columnas).  
 2. Se observó la ubicación de los ceros para determinar si es diagonal, triangular o identidad.  
@@ -135,7 +135,7 @@ Aᵀ = ( 2 3 )
 
 ---
 
-### Procedimiento paso a paso
+### Procedimiento
 
 1. Se aplicaron las operaciones correspondientes a cada caso:  
    - Suma y resta elemento a elemento.  
@@ -145,5 +145,107 @@ Aᵀ = ( 2 3 )
 
 ---
 
-### Conclusión
-Con estos ejercicios se repasaron las operaciones fundamentales con matrices: suma, resta, multiplicación, transposición y clasificación. Estos son los principios básicos para trabajar posteriormente con operaciones más avanzadas como determinantes o inversas.
+## Ejercicio 3: Multiplicación en cadena
+
+**Enunciado:**  
+Verifica que se cumpla la propiedad asociativa de la multiplicación de matrices, es decir:  
+\((AB)C = A(BC)\)
+
+Dadas las matrices:
+
+A = ( 1 2 )
+( 3 4 )
+
+B = ( 2 0 )
+( 1 3 )
+
+C = ( 1 1 )
+( 0 2 )
+
+
+---
+
+### Solución
+
+**1. Calcular (AB)**
+
+AB = ( 12 + 21 10 + 23 )
+( 32 + 41 30 + 43 )
+
+AB = ( 4 6 )
+( 10 12 )
+
+
+---
+
+**2. Calcular (AB)C**
+
+(AB)C = ( 4 6 ) ( 1 1 )
+( 10 12 ) ( 0 2 )
+
+(AB)C = ( (4)(1)+(6)(0) (4)(1)+(6)(2) )
+( (10)(1)+(12)(0) (10)(1)+(12)(2) )
+
+(AB)C = ( 4 16 )
+( 10 34 )
+
+
+---
+
+**3. Calcular (BC)**
+
+BC = ( 2 0 ) ( 1 1 )
+( 1 3 ) ( 0 2 )
+
+BC = ( (2)(1)+(0)(0) (2)(1)+(0)(2) )
+( (1)(1)+(3)(0) (1)(1)+(3)(2) )
+
+BC = ( 2 2 )
+( 1 7 )
+
+
+---
+
+**4. Calcular A(BC)**
+
+A(BC) = ( 1 2 ) ( 2 2 )
+( 3 4 ) ( 1 7 )
+
+A(BC) = ( (1)(2)+(2)(1) (1)(2)+(2)(7) )
+( (3)(2)+(4)(1) (3)(2)+(4)(7) )
+
+A(BC) = ( 4 16 )
+( 10 34 )
+
+
+---
+
+### Verificación
+
+\[
+(AB)C = A(BC) =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34
+\end{pmatrix}
+\]
+
+Por lo tanto, **la propiedad asociativa se cumple**, ya que ambos resultados son iguales.
+
+---
+
+### Procedimiento paso a paso
+
+1. Se realizaron los productos de matrices en el orden indicado.  
+2. Se verificó que los resultados de \((AB)C\) y \(A(BC)\) fueran idénticos.  
+3. Se comprobó que la multiplicación de matrices es **asociativa**, pero **no conmutativa**.
+
+---
+
+---
+
+## Conclusión general
+
+Durante esta actividad se reforzaron los conocimientos sobre el manejo de matrices, abarcando su clasificación, las operaciones básicas y la comprobación de propiedades algebraicas.  
+La documentación permitió aplicar buenas prácticas de redacción técnica utilizando Markdown y estructuración jerárquica del contenido, tal como se realiza en proyectos reales de programación.  
+Con ello, se cumple el objetivo de comprender la manipulación matricial y su correcta presentación profesional dentro de repositorios de control de versiones como GitHub.
