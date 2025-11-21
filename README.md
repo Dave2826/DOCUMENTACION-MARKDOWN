@@ -27,6 +27,7 @@ public static void main(String[] args) {
 |p|i|1|
 
 
-''' excel
- =imagen1!A1 + imagen2!A1
- '''
+```excel
+=imagen1!A1 + imagen2!A1
+```
+
