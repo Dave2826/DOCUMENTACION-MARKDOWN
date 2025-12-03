@@ -17,35 +17,56 @@ Aplicar operaciones matriciales básicas utilizando hojas de Excel programadas p
 Además, integrar el trabajo a un repositorio de GitHub utilizando formato Markdown.
 
 ---
+## Imágenes del Proyecto
 
-## 📂 Archivos incluidos en el proyecto
+### Punisher (original)
+![Punisher](imagenes/Punisher1.png)
 
-### ✔ `Punisher`
-Imagen en pixel-art reconstruida con colores reales (negro, blanco y rojo).
-
-### ✔ `Punisher_matrix`
-Conversión de la imagen a matriz numérica:
-- Negro = 1  
-- Blanco = 0  
-- Rojo = 2  
-
-### ✔ `Punisher_sum`
-Suma total de los elementos de la matriz.
-
-### ✔ `Punisher_resta`
-Matriz A multiplicada por -1.
-
-### ✔ `Punisher_scalar2`
-Matriz A multiplicada por el escalar **2**.
-
-### ✔ `transponer`
-Versión transpuesta del pixel-art original.
+### Punisher (traspuesta)
+![Punisher T](imagenes/Punisher1_T.png)
 
 ---
 
-## 🧮 Programación de la hoja de Excel
+### Deadpool2 (original)
+![Deadpool2](imagenes/Deadpool2.png)
 
-### **1. Conversión de colores a números**
+### Deadpool2 (traspuesta)
+![Deadpool2 T](imagenes/Deadpool2_T.png)
 
-```excel
-=SI(Punisher!A1="#000000",1, SI(Punisher!A1="#FF0000",2,0))
+---
+
+### Alien3 (original)
+![Alien3](imagenes/Alien3.png)
+
+### Alien3 (traspuesta)
+![Alien3 T](imagenes/Alien3_T.png)
+
+---
+
+### Navi4 (original)
+![Navi4](imagenes/Navi4.png)
+
+### Navi4 (traspuesta)
+![Navi4 T](imagenes/Navi4_T.png)
+
+---
+
+### Laptop5 (original)
+![Laptop5](imagenes/Laptop5.png)
+
+### Laptop5 (traspuesta)
+![Laptop5 T](imagenes/Laptop5_T.png)
+
+---
+
+### Multiplicación escalar
+![Escalar 2](imagenes/Multi-Escalar_Punisher1.png)
+
+### Suma de matrices
+![Suma Punisher + Deadpool](imagenes/Suma_Punisher1_Deadpool2.png)
+
+### Resta de matrices
+![Resta Punisher - Deadpool](imagenes/Resta_Punisher1_Deadpool2.png)
+
+### Combinación lineal
+![Combinación](imagenes/Combinacion_c1A_c2B.png)
